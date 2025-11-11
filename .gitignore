@@ -1,0 +1,142 @@
+# -----------------------------
+# Python / Virtual Environment
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pklz
+*.pyc
+*.pyo
+*$py.class
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+.venv.bak/
+*.env.bak
+
+# -----------------------------
+# IDEs / Editors
+# -----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Operating System
+# -----------------------------
+# Linux / macOS system junk
+.Trash-*
+.cache/
+.config/
+local/
+__MACOSX/
+
+# -----------------------------
+# Logs / Temp
+# -----------------------------
+logs/
+*.log
+*.tmp
+tmp/
+temp/
+*.bak
+nohup.out
+
+# -----------------------------
+# Docker / Build
+# -----------------------------
+# Bytecode, cache, and build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+# Docker volumes and mounts
+docker-compose.override.yml
+docker/data/
+docker/logs/
+
+# -----------------------------
+# Database / State / Secrets
+# -----------------------------
+app/data/*.db
+app/data/*.sqlite
+monitor_state.json
+*.sqlite3
+*.db-journal
+*.db-shm
+*.db-wal
+
+# -----------------------------
+# Environment & Config Files
+# -----------------------------
+.env
+.env.*
+*.secret
+secrets/
+config/local_*.yaml
+config/private_*.yaml
+config/*.key
+config/*.pem
+config/*.crt
+
+# -----------------------------
+# AI / ML / OCR Artifacts
+# -----------------------------
+# Model weights or checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+# Temporary OCR outputs
+/tmp/
+temp_images/
+downloaded_images/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.webp
+
+# -----------------------------
+# Telethon & Session Files
+# -----------------------------
+# Session files store login credentials — keep private
+*.session
+*.session-journal
+bot_session.*
+user_session.*
+monitor_session.*
+
+# -----------------------------
+# JetBrains / PyCharm
+# -----------------------------
+.idea/
+*.iml
+out/
+
+# -----------------------------
+# Notebooks / Experiments
+# -----------------------------
+*.ipynb_checkpoints
+*.ipynb_tmp
+
+# -----------------------------
+# Misc
+# -----------------------------
+picks.db
+cache/
+uploads/
+__old__/
+__archive__/
+_deepseek/
